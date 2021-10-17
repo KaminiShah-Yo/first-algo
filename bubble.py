@@ -15,3 +15,5 @@ bubbleSort(arr)
 print ("Sorted array is:") 
 for i in range(len(arr)): 
 	print ("%d" %arr[i]), 
+
+#We can update the way how the result it being displayed.
