@@ -42,3 +42,6 @@ def max_profit_optimized(prices):
         cur_max = max(0, cur_max + prices[i] - prices[i-1])
         max_so_far = max(max_so_far, cur_max)
     return max_so_far
+
+
+# We can update input and output method.
